@@ -32,8 +32,8 @@ const DNIInputPage: React.FC<{ onSubmit: (dni: string) => void }> = ({ onSubmit 
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white dark:bg-gray-800 rounded shadow-md">
-      <h1 className="text-3xl font-bold text-center mb-6 text-gym-red dark:text-gym-orange">Gimnasio Jeredumar</h1>
-      <h2 className="text-xl font-semibold text-center mb-8 text-gym-orange dark:text-gray-300">¡Deja de codear, y anda a entrenar!</h2>
+      <h1 className="text-3xl font-bold text-center mb-6 text-gym-red dark:text-gym-orange">Gimnasio Coleman & Levrone</h1>
+      <h2 className="text-xl font-semibold text-center mb-8 text-gym-orange dark:text-gray-300">Deja la programación, inicia tu preparación</h2>
       <h3 className="text-lg font-bold mb-4 text-gray-800 dark:text-white">Ingrese su DNI:</h3>
       <input
         type="text"
